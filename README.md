@@ -27,10 +27,10 @@ MDH/
 
 ### 1. Clone the repo
 ``` bash
-git clone 
+git clone https://github.com/DaviRosimES/MDH.git
 ```
 
-### 1. Build the Project
+### 2. Build the Project
 
 ```bash
 mkdir build && cd build
@@ -38,13 +38,13 @@ cmake ..
 make
 ```
 
-### 2. Run the Application
+### 3. Run the Application
 
 ```bash
 ./MDH
 ```
 
-### 3. Run Tests
+### 4. Run Tests
 
 ```bash
 ctest       # or ./MDHTests
