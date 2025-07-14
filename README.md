@@ -52,22 +52,6 @@ ctest       # or ./MDHTests
 
 ---
 
-## 🧩 Example Use Case
-
-In `main.cpp`, we instantiate a `CSVFeeder` to simulate live data replay from a file. Each data point is passed to a callback, which can be a strategy, an order book, or a logger.
-
-```cpp
-CSVFeeder feeder("data.csv");
-
-feeder.setCallback([](const std::string& symbol, double price, int volume) {
-    std::cout << symbol << " @ " << price << " (" << volume << " shares)" << std::endl;
-});
-
-feeder.start();
-```
-
----
-
 ## 🛠️ Dependencies
 
 - C++20
